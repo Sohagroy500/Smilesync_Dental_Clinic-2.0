@@ -1,0 +1,6 @@
+{
+  "name": "Smile Sync Dental Clinic",
+  "description": "Premium, portfolio-grade frontend website for SmileSync Dental Clinic with modern UI, interactive appointment booking, services catalog, specialist doctors, testimonials, and dark mode support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
