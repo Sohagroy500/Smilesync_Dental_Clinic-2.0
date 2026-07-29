@@ -258,13 +258,13 @@ GOOGLE_API_KEY=your_google_gemini_api_key_here
 
 | Feature View | Screenshot Preview |
 | :--- | :--- |
-| **Patient Portal Homepage** | ![Homepage](./docs/screenshots/homepage.jpg) |
-| **AI Chatbot Welcome Interface** | ![AI Chatbot Welcome](./docs/screenshots/chatbot_welcome.jpg) |
-| **Conversational Appointment Booking** | ![AI Appointment Booking](./docs/screenshots/chatbot_booking.jpg) |
-| **Secure Admin Portal Login** | ![Admin Portal Login](./docs/screenshots/admin_login.jpg) |
-| **Admin Dashboard Analytics** | ![Admin Dashboard](./docs/screenshots/admin_dashboard.jpg) |
-| **Appointments Schedule Table** | ![Appointments Management](./docs/screenshots/appointments_table.jpg) |
-| **Patient Directory** | ![Patient Directory](./docs/screenshots/patient_directory.jpg) |
+| **Patient Portal Homepage** | ![Homepage](docs/screenshots/homepage.png) |
+| **AI Chatbot Welcome Interface** | ![AI Chatbot Welcome](docs/screenshots/chatbot_welcome.png) |
+| **Conversational Appointment Booking** | ![AI Appointment Booking](docs/screenshots/chatbot_booking.png) |
+| **Secure Admin Portal Login** | ![Admin Portal Login](docs/screenshots/admin_login.png) |
+| **Admin Dashboard Analytics** | ![Admin Dashboard](docs/screenshots/admin_dashboard.png) |
+| **Appointments Schedule Table** | ![Appointments Management](docs/screenshots/appointments_table.png) |
+| **Patient Directory** | ![Patient Directory](docs/screenshots/patient_directory.png) |
 
 ---
 
