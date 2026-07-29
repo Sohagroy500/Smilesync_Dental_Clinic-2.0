@@ -256,15 +256,17 @@ GOOGLE_API_KEY=your_google_gemini_api_key_here
 
 ## Screenshots
 
+> **Note**: Replace the placeholder image URLs below with your repository's actual screenshot assets (e.g., `./docs/screenshots/homepage.png`).
+
 | View | Screenshot |
 | :--- | :--- |
-| **Homepage** | ![Homepage Placeholder](https://via.placeholder.com/800x450?text=SmileSync+Homepage+View) |
-| **AI Chatbot** | ![Chatbot Placeholder](https://via.placeholder.com/800x450?text=AI+Chatbot+Assistant+In+Action) |
-| **Appointment Booking** | ![Booking Flow Placeholder](https://via.placeholder.com/800x450?text=Conversational+Appointment+Booking) |
-| **Admin Login** | ![Admin Login Placeholder](https://via.placeholder.com/800x450?text=Admin+Authentication+Portal) |
-| **Dashboard** | ![Dashboard Placeholder](https://via.placeholder.com/800x450?text=Clinic+Analytics+%26+Overview) |
-| **Appointments** | ![Appointments Placeholder](https://via.placeholder.com/800x450?text=Appointment+Management+Grid) |
-| **Patients** | ![Patients Placeholder](https://via.placeholder.com/800x450?text=Patient+Records+Directory) |
+| **Homepage** | ![Homepage Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=SmileSync+Homepage+View) |
+| **AI Chatbot** | ![Chatbot Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=AI+Chatbot+Assistant+In+Action) |
+| **Appointment Booking** | ![Booking Flow Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Conversational+Appointment+Booking) |
+| **Admin Login** | ![Admin Login Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Admin+Authentication+Portal) |
+| **Dashboard** | ![Dashboard Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Clinic+Analytics+And+Overview) |
+| **Appointments** | ![Appointments Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Appointment+Management+Grid) |
+| **Patients** | ![Patients Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Patient+Records+Directory) |
 
 ---
 
