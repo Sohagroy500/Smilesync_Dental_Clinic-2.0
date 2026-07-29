@@ -153,7 +153,7 @@ export const Footer: React.FC<FooterProps> = ({
 
         {/* Bottom Copyright & Back to Top */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-medium">
-          <p>© {new Date().getFullYear()} SmileSync Dental Clinic. All Rights Reserved. Designed for portfolio excellence.</p>
+          <p>© {new Date().getFullYear()} Green AI Automation Systems. All rights reserved.</p>
 
           <button
             onClick={scrollToTop}

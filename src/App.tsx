@@ -13,6 +13,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ChatWidget } from './components/chat/ChatWidget';
 import { AdminLayout } from './components/admin/AdminLayout';
+import { MouseSpotlight } from './components/MouseSpotlight';
 
 export default function App() {
   const [viewMode, setViewMode] = useState<'patient' | 'admin'>('patient');
@@ -75,15 +76,28 @@ export default function App() {
 
   if (viewMode === 'admin') {
     return (
-      <AdminLayout
-        onSwitchToPatientSite={() => setViewMode('patient')}
-      />
+      <>
+        <MouseSpotlight radius={320} opacity={0.7} animationSpeed={0.08} />
+        <AdminLayout
+          onSwitchToPatientSite={() => setViewMode('patient')}
+        />
+      </>
     );
   }
 
   return (
-    <div className={`min-h-screen bg-[#F8FAFC] dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans selection:bg-blue-600 selection:text-white transition-colors duration-300`}>
+    <div className={`min-h-screen bg-[#F8FAFC] dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans selection:bg-blue-600 selection:text-white transition-colors duration-300 relative`}>
       
+      {/* Global Mouse Cursor Spotlight FX */}
+      <MouseSpotlight 
+        radius={340} 
+        blur={0} 
+        opacity={0.85} 
+        glowColor="37, 99, 235" 
+        accentColor="14, 165, 233" 
+        animationSpeed={0.08} 
+      />
+
       {/* Sticky Top Header */}
       <Header
         activeSection={activeSection}
