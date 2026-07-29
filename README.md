@@ -19,6 +19,7 @@ SmileSync Dental Clinic is an AI-powered appointment booking and customer suppor
 - [Project Structure](#project-structure)
 - [Installation & Setup](#installation--setup)
 - [Environment Variables](#environment-variables)
+- [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
 - [License](#license)
 - [Author](#author)
@@ -250,6 +251,20 @@ DATABASE_URL=sqlite:///./clinic.db
 # Google Gemini & ADK API Configuration
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ```
+
+---
+
+## Screenshots
+
+| Feature View | Screenshot Preview |
+| :--- | :--- |
+| **Patient Portal Homepage** | ![Homepage](./docs/screenshots/homepage.jpg) |
+| **AI Chatbot Welcome Interface** | ![AI Chatbot Welcome](./docs/screenshots/chatbot_welcome.jpg) |
+| **Conversational Appointment Booking** | ![AI Appointment Booking](./docs/screenshots/chatbot_booking.jpg) |
+| **Secure Admin Portal Login** | ![Admin Portal Login](./docs/screenshots/admin_login.jpg) |
+| **Admin Dashboard Analytics** | ![Admin Dashboard](./docs/screenshots/admin_dashboard.jpg) |
+| **Appointments Schedule Table** | ![Appointments Management](./docs/screenshots/appointments_table.jpg) |
+| **Patient Directory** | ![Patient Directory](./docs/screenshots/patient_directory.jpg) |
 
 ---
 
