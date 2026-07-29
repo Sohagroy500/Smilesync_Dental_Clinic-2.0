@@ -19,7 +19,6 @@ SmileSync Dental Clinic is an AI-powered appointment booking and customer suppor
 - [Project Structure](#project-structure)
 - [Installation & Setup](#installation--setup)
 - [Environment Variables](#environment-variables)
-- [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
 - [License](#license)
 - [Author](#author)
@@ -251,22 +250,6 @@ DATABASE_URL=sqlite:///./clinic.db
 # Google Gemini & ADK API Configuration
 GOOGLE_API_KEY=your_google_gemini_api_key_here
 ```
-
----
-
-## Screenshots
-
-> **Note**: Replace the placeholder image URLs below with your repository's actual screenshot assets (e.g., `./docs/screenshots/homepage.png`).
-
-| View | Screenshot |
-| :--- | :--- |
-| **Homepage** | ![Homepage Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=SmileSync+Homepage+View) |
-| **AI Chatbot** | ![Chatbot Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=AI+Chatbot+Assistant+In+Action) |
-| **Appointment Booking** | ![Booking Flow Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Conversational+Appointment+Booking) |
-| **Admin Login** | ![Admin Login Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Admin+Authentication+Portal) |
-| **Dashboard** | ![Dashboard Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Clinic+Analytics+And+Overview) |
-| **Appointments** | ![Appointments Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Appointment+Management+Grid) |
-| **Patients** | ![Patients Preview](https://placehold.co/800x450/0f172a/38bdf8.png?text=Patient+Records+Directory) |
 
 ---
 

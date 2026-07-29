@@ -21,7 +21,7 @@ export const ChatMessages: React.FC<ChatMessagesProps> = ({
   }, [messages, isLoading]);
 
   return (
-    <div className="flex-1 overflow-y-auto p-4 space-y-2 bg-slate-50/50 dark:bg-slate-950/50 scrollbar-thin scrollbar-thumb-slate-300 dark:scrollbar-thumb-slate-700">
+    <div className="flex-1 overflow-y-auto p-4 space-y-2 flex flex-col bg-slate-50/50 dark:bg-slate-950/50 scrollbar-thin scrollbar-thumb-slate-300 dark:scrollbar-thumb-slate-700">
       
       {/* Welcome Card banner if only welcome message or start */}
       {messages.length <= 1 && (

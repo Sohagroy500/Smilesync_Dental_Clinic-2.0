@@ -34,7 +34,7 @@ export const ChatBubble: React.FC<ChatBubbleProps> = ({ message }) => {
   return (
     <div
       className={`flex items-end gap-2.5 my-2.5 ${
-        isUser ? 'flex-row-reverse self-end' : 'flex-row self-start'
+        isUser ? 'flex-row-reverse ml-auto self-end' : 'flex-row mr-auto self-start'
       } max-w-[88%] sm:max-w-[82%] animate-fade-in`}
     >
       {/* Avatar */}
@@ -49,7 +49,7 @@ export const ChatBubble: React.FC<ChatBubbleProps> = ({ message }) => {
       </div>
 
       {/* Bubble Container */}
-      <div className="flex flex-col gap-1">
+      <div className={`flex flex-col gap-1 ${isUser ? 'items-end' : 'items-start'}`}>
         <div
           className={`px-4 py-3 rounded-2xl text-xs sm:text-sm leading-relaxed shadow-sm transition-all ${
             isUser
